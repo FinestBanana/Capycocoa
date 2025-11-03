@@ -3,7 +3,7 @@
 <p align="center"><img src="assets/capycocoa_logo.png"></p>
 
 # Capycocoa
-A cozy warm color scheme based on chocolate and fruit colors.
+A cozy warm color scheme based on chocolate and fruit colors. And maybe the colors of capy fur. If that's even fur. Might be more like spines. :blush:
 
 Simply copy the respective capycocoa.vim file to<br>
 .config/nvim/colors/<br>
@@ -11,7 +11,18 @@ and<br>
 .config/nvim/autoload/<br>
 .
 
-Dark mode (set to standard) vim command:
+The default mode is dark. If you want to set light mode as standard you can define it in your .vimrc, init.lua or whatever your config file name is. :information_desk_person::laughing:
+For vimscript set:
+```
+set background=light
+```
+For lua set:
+```
+vim.opt.background="light"
+```
+
+To toggle between dark and light just execute the following commands in your running vim session.
+Dark mode vim command:
 ```
 :set background=dark
 ```
@@ -28,7 +39,7 @@ Light mode vim command:
 <p align="center"><img src="assets/overview_light.png"></p>
 
 # Credit
-The code of the .vim files is forked from Gruvbox [MIT/X11][].
+The code of the .vim files is forked from Gruvbox [MIT/X11][]. :neckbeard:
 
 # License
 [MIT/X11][]
