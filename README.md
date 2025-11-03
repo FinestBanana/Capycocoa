@@ -11,7 +11,7 @@ and<br>
 .config/nvim/autoload/<br>
 .
 
-The default mode is dark. If you want to set light mode as standard you can define it in your .vimrc, init.lua or whatever your config file name is. :information_desk_person::laughing:
+The default mode is dark. If you want to set light mode as standard you can define it in your .vimrc, init.lua or whatever your config file name is. :information_desk_person::laughing:<br>
 For vimscript set:
 ```
 set background=light
@@ -31,17 +31,33 @@ Light mode vim command:
 :set background=light
 ```
 
-# Palette
+## Modes
+In order to select a specific mode (regular, intense or pastel) add the following command to your .vimrc or init.lua.
+vimscript:
+```
+let g:capycocoa_contrast_dark='intense'
+```
+lua:
+```
+vim.api.nvim_set_var('capycocoa_contrast_dark', 'intense')
+```
+### Dark
+<p align="center"><img src="assets/screenshots-modes-dark.png"></p>
+
+### Light
+<p align="center"><img src="assets/screenshots-modes-light.png"></p>
+
+## Palette
 ### Dark
 <p align="center"><img src="assets/overview_dark.png"></p>
 
 ### Light
 <p align="center"><img src="assets/overview_light.png"></p>
 
-# Credit
+## Credit
 The code of the .vim files is forked from Gruvbox [MIT/X11][]. :neckbeard:
 
-# License
+## License
 [MIT/X11][]
 
    [MIT/X11]: https://en.wikipedia.org/wiki/MIT_License
