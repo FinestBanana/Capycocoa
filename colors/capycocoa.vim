@@ -3,7 +3,7 @@
 " Description: Cozy warm color scheme based on chocolate and fruit colors
 " Author: FinestBanana <feinstebanane@gmail.com>
 " Source: https://github.com/FinestBanana/Capycocoa
-" Last Modified: 22 Oct 2025
+" Last Modified: 03 Nov 2025
 " -----------------------------------------------------------------------------
 
 " Supporting code -------------------------------------------------------------
@@ -70,11 +70,11 @@ if exists('g:capycocoa_contrast')
 endif
 
 if !exists('g:capycocoa_contrast_dark')
-  let g:capycocoa_contrast_dark='medium'
+  let g:capycocoa_contrast_dark='regular'
 endif
 
 if !exists('g:capycocoa_contrast_light')
-  let g:capycocoa_contrast_light='medium'
+  let g:capycocoa_contrast_light='regular'
 endif
 
 let s:is_dark=(&background == 'dark')
@@ -169,9 +169,9 @@ let s:none = ['NONE', 'NONE']
 " determine relative colors
 if s:is_dark
   let s:bg0  = s:cc.dark0
-  if g:capycocoa_contrast_dark == 'soft'
+  if g:capycocoa_contrast_dark == 'pastel'
     let s:bg0  = s:cc.dark0_soft
-  elseif g:capycocoa_contrast_dark == 'hard'
+  elseif g:capycocoa_contrast_dark == 'intense'
     let s:bg0  = s:cc.dark0_hard
   endif
 
@@ -199,9 +199,9 @@ if s:is_dark
   let s:orange = s:cc.bright_orange
 else
   let s:bg0  = s:cc.light0
-  if g:capycocoa_contrast_light == 'soft'
+  if g:capycocoa_contrast_light == 'pastel'
     let s:bg0  = s:cc.light0_soft
-  elseif g:capycocoa_contrast_light == 'hard'
+  elseif g:capycocoa_contrast_light == 'intense'
     let s:bg0  = s:cc.light0_hard
   endif
 
