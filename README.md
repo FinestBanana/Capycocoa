@@ -5,12 +5,14 @@
 # Capycocoa
 A cozy warm color scheme based on chocolate and fruit colors. And maybe the colors of capy fur. If that's even fur. Might be more like spines. :blush:
 
+## Install
 Simply copy the respective capycocoa.vim file to<br>
 .config/nvim/colors/<br>
 and<br>
 .config/nvim/autoload/<br>
 .
 
+## Dark/Light
 The default mode is dark. If you want to set light mode as standard you can define it in your .vimrc, init.lua or whatever your config file name is. :information_desk_person::laughing:<br>
 For vimscript set:
 ```
@@ -32,7 +34,7 @@ Light mode vim command:
 ```
 
 ## Modes
-In order to select a specific mode (regular, intense or pastel) add the following command to your .vimrc or init.lua.
+In order to select a specific mode (regular, intense or pastel) add the following command to your .vimrc or init.lua.<br>
 vimscript:
 ```
 let g:capycocoa_contrast_dark='intense'
