@@ -1,6 +1,17 @@
-<p align="center"><img src="assets/screenshots.png"></p>
+<ul>
+   <li>v1.1:
+      <ul>
+         <li>updated bg colors - slightly darker and lighter shades for the respective modes</li>
+         <li>updated syntax colors for higher legibility - most of the syntax colors now meet the contrast ratio of 4.5:1 🔬 ☺️</li>
+      </ul>
+   </li>
+</ul>
+<br>
+<br>
 
 <p align="center"><img src="assets/capycocoa_logo.png"></p>
+
+<p align="center"><img src="assets/screenshots.png"></p>
 
 # Capycocoa
 A cozy warm color scheme based on chocolate and fruit colors. And maybe the colors of capy fur. If that's even fur. Might be more like spines. :blush:
@@ -50,11 +61,8 @@ vim.api.nvim_set_var('capycocoa_contrast_dark', 'intense')
 <p align="center"><img src="assets/screenshots-modes-light.png"></p>
 
 ## Palette
-### Dark
-<p align="center"><img src="assets/overview_dark.png"></p>
-
-### Light
-<p align="center"><img src="assets/overview_light.png"></p>
+<p>The following is an excerpt from the "capycocoa.vim colors file" showing the currently used color codes. It comprises the hex, ansi256 and rgb color codes.</p>
+<p align="center"><img src="assets/overview_colorcodes.png"></p>
 
 ## Credit
 The code of the .vim files is forked from Gruvbox [MIT/X11][]. :neckbeard:
