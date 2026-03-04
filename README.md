@@ -64,6 +64,15 @@ vim.api.nvim_set_var('capycocoa_contrast_dark', 'intense')
 <p>The following is an excerpt from the "capycocoa.vim colors file" showing the currently used color codes. It comprises the hex, ansi256 and rgb color codes.</p>
 <p align="center"><img src="assets/overview_colorcodes.png"></p>
 
+## Palette Test
+<p>Experimenting with HSLuv. I'm going to take a look at these test pictures on a couple of different monitors in order to see which grading feels more natural to me. The current theme is based on HSL grading but I might switch it in the future.</p>
+
+### dark
+<p align="center"><img src="assets/dark_palette_test.png"></p>
+
+### light
+<p align="center"><img src="assets/light_palette_test.png"></p>
+
 ## Credit
 The code of the .vim files is forked from Gruvbox [MIT/X11][]. :neckbeard:
 
