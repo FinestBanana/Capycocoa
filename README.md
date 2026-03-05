@@ -87,6 +87,9 @@ vim.api.nvim_set_var('capycocoa_contrast_dark', 'intense')
 #### HSL with contrast grading
 <p align="center"><img src="assets/light_palette_test3.png"></p>
 
+#### HSLuv with HSL interpolation
+<p align="center"><img src="assets/light_palette_test4.png"></p>
+
 ## Credit
 The code of the .vim files is forked from Gruvbox [MIT/X11][]. :neckbeard:
 
