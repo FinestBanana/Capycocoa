@@ -68,10 +68,24 @@ vim.api.nvim_set_var('capycocoa_contrast_dark', 'intense')
 <p>Experimenting with HSLuv. I'm going to take a look at these test pictures on a couple of different monitors in order to see which grading feels more natural to me. The current theme is based on HSL grading but I might switch it in the future.</p>
 
 ### dark
+#### HSLuv
 <p align="center"><img src="assets/dark_palette_test.png"></p>
 
+#### HSLuv with HSL interpolation
+<p align="center"><img src="assets/dark_palette_test2.png"></p>
+
+#### HSLuv with HSL interpolation darker
+<p align="center"><img src="assets/dark_palette_test3.png"></p>
+
 ### light
+#### HSLuv
 <p align="center"><img src="assets/light_palette_test.png"></p>
+
+#### HSL with subtle contrast grading
+<p align="center"><img src="assets/light_palette_test2.png"></p>
+
+#### HSL with contrast grading
+<p align="center"><img src="assets/light_palette_test3.png"></p>
 
 ## Credit
 The code of the .vim files is forked from Gruvbox [MIT/X11][]. :neckbeard:
