@@ -3,7 +3,7 @@
 " Description: Cozy warm color scheme based on chocolate and fruit colors
 " Author: FinestBanana <feinstebanane@gmail.com>
 " Source: https://github.com/FinestBanana/Capycocoa
-" Last Modified: 20 Feb 2026
+" Last Modified: 07 Mar 2026
 " -----------------------------------------------------------------------------
 
 " Supporting code -------------------------------------------------------------
@@ -86,50 +86,50 @@ let s:is_dark=(&background == 'dark')
 let s:cc = {}
 
 " fill it with absolute colors
-let s:cc.dark0_hard  = ['#25150e', 233]     " 37-21-14
-let s:cc.dark0       = ['#301b12', 234]     " 48-27-18
-let s:cc.dark0_soft  = ['#3b2116', 235]     " 59-33-22
-let s:cc.dark1       = ['#45271a', 236]     " 69-39-26
-let s:cc.dark2       = ['#512e1f', 237]     " 81-46-31
-let s:cc.dark3       = ['#5c3423', 238]     " 92-52-35
-let s:cc.dark4       = ['#683b27', 239]     " 104-59-39
-let s:cc.dark4_256   = ['#683b27', 239]     " 104-59-39
+let s:cc.dark0_hard  = ['#200f08', 232]     " 32-15-8
+let s:cc.dark0       = ['#2b160d', 233]     " 43-22-13
+let s:cc.dark0_soft  = ['#361d12', 234]     " 54-29-18
+let s:cc.dark1       = ['#402317', 235]     " 64-35-23
+let s:cc.dark2       = ['#4a2a1c', 236]     " 74-42-28
+let s:cc.dark3       = ['#543021', 237]     " 84-48-33
+let s:cc.dark4       = ['#5f3726', 238]     " 95-55-38
+let s:cc.dark4_256   = ['#5f3726', 238]     " 95-55-38
 
 let s:cc.gray_138    = ['#967269', 138]     " 150-114-105
-let s:cc.gray_95     = ['#755952', 95]      " 117-89-82
+let s:cc.gray_95     = ['#785b53', 95]      " 120-91-83
 
-let s:cc.light0_hard = ['#f3e6c8', 229]     " 243-230-200
-let s:cc.light0      = ['#f1e1bc', 228]     " 241-225-188
-let s:cc.light0_soft = ['#eedbaf', 227]     " 238-219-175
-let s:cc.light1      = ['#ebd5a2', 222]     " 235-213-162
-let s:cc.light2      = ['#e9d096', 221]     " 233-208-150
-let s:cc.light3      = ['#e6ca89', 180]     " 230-202-137
-let s:cc.light4      = ['#e3c57d', 179]     " 227-197-125
-let s:cc.light4_256  = ['#e3c57d', 179]     " 227-197-125
+let s:cc.light0_hard = ['#f8e8c4', 229]     " 248-232-196
+let s:cc.light0      = ['#f4e2b8', 228]     " 244-226-184
+let s:cc.light0_soft = ['#f0dcad', 227]     " 240-220-173
+let s:cc.light1      = ['#ecd6a2', 222]     " 236-214-162
+let s:cc.light2      = ['#e8d096', 221]     " 232-208-150
+let s:cc.light3      = ['#e5ca8b', 180]     " 229-202-139
+let s:cc.light4      = ['#e1c47f', 179]     " 225-196-127
+let s:cc.light4_256  = ['#e1c47f', 179]     " 225-196-123
 
-let s:cc.bright_red     = ['#ef5d5d', 203]     " 239-93-93
-let s:cc.bright_green   = ['#a4eb47', 149]     " 164-235-71
+let s:cc.bright_red     = ['#f85454', 203]     " 248-84-84
+let s:cc.bright_green   = ['#97da3e', 113]     " 151-218-62
 let s:cc.bright_yellow  = ['#f4d525', 220]     " 244-213-37
 let s:cc.bright_blue    = ['#5e97ed', 69]      " 94-151-237
-let s:cc.bright_purple  = ['#c884a3', 175]     " 200-132-163
-let s:cc.bright_cyan    = ['#3de3f5', 81]      " 61-227-245
-let s:cc.bright_orange  = ['#ff7d1a', 208]     " 255-125-26
+let s:cc.bright_purple  = ['#cf7da2', 175]     " 207-125-162
+let s:cc.bright_cyan    = ['#32e8fe', 80]      " 50-232-254
+let s:cc.bright_orange  = ['#fd801d', 208]     " 253-128-29
 
 let s:cc.neutral_red    = ['#e01f1f', 160]     " 224-31-31
-let s:cc.neutral_green  = ['#7fcf17', 112]     " 127-207-23
-let s:cc.neutral_yellow = ['#c8ab04', 178]     " 200-171-4
+let s:cc.neutral_green  = ['#6d9f2b', 70]      " 109-159-43
+let s:cc.neutral_yellow = ['#b59d18', 178]     " 181-157-24
 let s:cc.neutral_blue   = ['#3370cc', 62]      " 51-112-204
 let s:cc.neutral_purple = ['#bc5c87', 132]     " 188-92-135
-let s:cc.neutral_cyan   = ['#0bc5da', 44]      " 11-197-218
+let s:cc.neutral_cyan   = ['#13bed1', 44]      " 19-190-209
 let s:cc.neutral_orange = ['#d46611', 166]     " 212-102-17
 
-let s:cc.faded_red      = ['#b81414', 124]     " 184-20-20
-let s:cc.faded_green    = ['#4a6b1f', 64]      " 74-107-31
-let s:cc.faded_yellow   = ['#6b6024', 58]      " 107-96-36
-let s:cc.faded_blue     = ['#0d49a6', 25]      " 13-73-166
-let s:cc.faded_purple   = ['#953761', 95]      " 149-55-97
-let s:cc.faded_cyan     = ['#106670', 23]      " 16-102-112
-let s:cc.faded_orange   = ['#9e4400', 130]     " 158-68-0
+let s:cc.faded_red      = ['#b41717', 124]     " 180-23-23
+let s:cc.faded_green    = ['#466819', 64]      " 70-104-25
+let s:cc.faded_yellow   = ['#706210', 58]      " 112-98-16
+let s:cc.faded_blue     = ['#224e92', 25]      " 34-78-146
+let s:cc.faded_purple   = ['#894162', 95]      " 137-65-98
+let s:cc.faded_cyan     = ['#266b73', 23]      " 38-107-115
+let s:cc.faded_orange   = ['#934708', 94]      " 147-71-8
 
 " }}}
 " Setup Emphasis: {{{
