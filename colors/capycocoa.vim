@@ -3,7 +3,7 @@
 " Description: Cozy warm color scheme based on chocolate and fruit colors
 " Author: FinestBanana <feinstebanane@gmail.com>
 " Source: https://github.com/FinestBanana/Capycocoa
-" Last Modified: 07 Mar 2026
+" Last Modified: 16 Mar 2026
 " -----------------------------------------------------------------------------
 
 " Supporting code -------------------------------------------------------------
@@ -95,8 +95,8 @@ let s:cc.dark3       = ['#543021', 237]     " 84-48-33
 let s:cc.dark4       = ['#5f3726', 238]     " 95-55-38
 let s:cc.dark4_256   = ['#5f3726', 238]     " 95-55-38
 
-let s:cc.gray_138    = ['#967269', 138]     " 150-114-105
-let s:cc.gray_95     = ['#785b53', 95]      " 120-91-83
+let s:cc.gray_138    = ['#aa8981', 138]     " 170-137-129
+let s:cc.gray_59     = ['#735851', 59]      " 115-88-81
 
 let s:cc.light0_hard = ['#f8e8c4', 229]     " 248-232-196
 let s:cc.light0      = ['#f4e2b8', 228]     " 244-226-184
@@ -107,29 +107,29 @@ let s:cc.light3      = ['#e5ca8b', 180]     " 229-202-139
 let s:cc.light4      = ['#e1c47f', 179]     " 225-196-127
 let s:cc.light4_256  = ['#e1c47f', 179]     " 225-196-123
 
-let s:cc.bright_red     = ['#f85454', 203]     " 248-84-84
-let s:cc.bright_green   = ['#97da3e', 113]     " 151-218-62
-let s:cc.bright_yellow  = ['#f4d525', 220]     " 244-213-37
-let s:cc.bright_blue    = ['#5e97ed', 69]      " 94-151-237
-let s:cc.bright_purple  = ['#cf7da2', 175]     " 207-125-162
-let s:cc.bright_cyan    = ['#32e8fe', 80]      " 50-232-254
-let s:cc.bright_orange  = ['#fd801d', 208]     " 253-128-29
+let s:cc.bright_red     = ['#eb6667', 167]     " 235-102-103
+let s:cc.bright_green   = ['#81bc34', 106]     " 129-188-52
+let s:cc.bright_yellow  = ['#e3c54d', 221]     " 227-197-77
+let s:cc.bright_blue    = ['#5d90e9', 69]      " 93-144-233
+let s:cc.bright_purple  = ['#cf749c', 175]     " 207-116-156
+let s:cc.bright_cyan    = ['#40cadc', 44]      " 64-202-220
+let s:cc.bright_orange  = ['#f59442', 215]     " 245-148-66
 
-let s:cc.neutral_red    = ['#e01f1f', 160]     " 224-31-31
-let s:cc.neutral_green  = ['#6d9f2b', 70]      " 109-159-43
-let s:cc.neutral_yellow = ['#b59d18', 178]     " 181-157-24
-let s:cc.neutral_blue   = ['#3370cc', 62]      " 51-112-204
-let s:cc.neutral_purple = ['#bc5c87', 132]     " 188-92-135
-let s:cc.neutral_cyan   = ['#13bed1', 44]      " 19-190-209
-let s:cc.neutral_orange = ['#d46611', 166]     " 212-102-17
+let s:cc.neutral_red    = ['#e42c2e', 160]     " 228-44-46
+let s:cc.neutral_green  = ['#5a891f', 64]      " 90-137-31
+let s:cc.neutral_yellow = ['#ad912c', 136]     " 173-145-44
+let s:cc.neutral_blue   = ['#306dcf', 63]      " 48-109-207
+let s:cc.neutral_purple = ['#b93a71', 132]     " 185-58-113
+let s:cc.neutral_cyan   = ['#2098af', 31]      " 32-152-175
+let s:cc.neutral_orange = ['#cd6c23', 166]     " 205-108-35
 
-let s:cc.faded_red      = ['#b41717', 124]     " 180-23-23
-let s:cc.faded_green    = ['#466819', 64]      " 70-104-25
-let s:cc.faded_yellow   = ['#706210', 58]      " 112-98-16
-let s:cc.faded_blue     = ['#224e92', 25]      " 34-78-146
-let s:cc.faded_purple   = ['#894162', 95]      " 137-65-98
-let s:cc.faded_cyan     = ['#266b73', 23]      " 38-107-115
-let s:cc.faded_orange   = ['#934708', 94]      " 147-71-8
+let s:cc.faded_red      = ['#be0d10', 124]     " 190-13-16
+let s:cc.faded_green    = ['#355a0b', 22]      " 53-90-11
+let s:cc.faded_yellow   = ['#765e10', 58]      " 118-94-16
+let s:cc.faded_blue     = ['#134aad', 25]      " 19-74-173
+let s:cc.faded_purple   = ['#8d0a42', 125]     " 141-10-66
+let s:cc.faded_cyan     = ['#006a81', 23]      " 0-106-129
+let s:cc.faded_orange   = ['#a14500', 130]     " 161-69-0
 
 " }}}
 " Setup Emphasis: {{{
@@ -210,7 +210,7 @@ else
   let s:bg3  = s:cc.light3
   let s:bg4  = s:cc.light4
 
-  let s:gray = s:cc.gray_95
+  let s:gray = s:cc.gray_59
 
   let s:fg0 = s:cc.dark0
   let s:fg1 = s:cc.dark1
@@ -723,12 +723,12 @@ endif
 if !exists('g:rbpt_colorpairs')
   let g:rbpt_colorpairs =
     \ [
-      \ ['blue', '#335fa6'], ['magenta', '#b35681'],
-      \ ['red',  '#d44242'], ['172',     '#e68527']
+      \ ['blue', '#306dcf'], ['magenta', '#b93a71'],
+      \ ['red',  '#e42c2e'], ['172',     '#cd6c23']
     \ ]
 endif
 
-let g:rainbow_guifgs = [ '#e68527', '#d44242', '#b35681', '#335fa6' ]
+let g:rainbow_guifgs = [ '#cd6c23', '#e42c2e', '#b93a71', '#306dcf' ]
 let g:rainbow_ctermfgs = [ '172', 'red', 'magenta', 'blue' ]
 
 if !exists('g:rainbow_conf')

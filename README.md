@@ -1,4 +1,10 @@
 <ul>
+   <li>v1.2:
+      <ul>
+         <li>compared a real piece of chocolate to my bg testing color palettes -> opted for the "HSLuv with HSL interpolation darker" palette because it looks the most natural to me</li>
+         <li>syntax colors are now based on HSLuv grading, the contrast ratio of 4.5:1 is still ensured</li>
+      </ul>
+   </li>
    <li>v1.1:
       <ul>
          <li>updated bg colors - slightly darker and lighter shades for the respective modes</li>
