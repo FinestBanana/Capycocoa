@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/screenshots.png"></p>
+
 <ul>
    <li>v1.2:
       <ul>
@@ -16,10 +18,6 @@
 <br>
 
 <p align="center"><img src="assets/capycocoa_logo.png"></p>
-
-<p align="center"><img src="assets/screenshots.png"></p>
-
-# Capycocoa
 A cozy warm color scheme based on chocolate and fruit colors. And maybe the colors of capy fur. If that's even fur. Might be more like spines. :blush:
 
 ## Install
@@ -60,11 +58,6 @@ lua:
 ```
 vim.api.nvim_set_var('capycocoa_contrast_dark', 'intense')
 ```
-### Dark
-<p align="center"><img src="assets/screenshots-modes-dark.png"></p>
-
-### Light
-<p align="center"><img src="assets/screenshots-modes-light.png"></p>
 
 ## Palette
 <p>The following is an excerpt from the "capycocoa.vim colors file" showing the currently used color codes. It comprises the hex, ansi256 and rgb color codes.</p>
